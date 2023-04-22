@@ -21,14 +21,19 @@ module.exports = {
 				},
 			},
 			fontFamily: {
-				fraunces: ["Fraunces", "serif"],
-				manrope: ["Manrope", "sans-serif"],
+				redHat: ["Red Hat Display", "sans-serif"],
 			},
 			fontSize: {
-				hdgL: ["80px", "80px"],
-				hdgM: ["56px", "64px"],
-				hdgS: ["32px", "40px"],
-				bodyPri: ["18px", "32px"],
+				hdgL: ["64px", "64px"],
+				hdgM: ["40px", "44px"],
+				overline: [
+					"16px",
+					{
+						lineHeight: "26px",
+						letterSpacing: "4px",
+					},
+				],
+				bodyPri: ["18px", "26px"],
 			},
 		},
 	},

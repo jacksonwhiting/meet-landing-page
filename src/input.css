@@ -4,6 +4,6 @@
 
 @layer components {
 	.btn-pri {
-		@apply py-3 px-16 rounded-full;
+		@apply py-3 px-12 rounded-full;
 	}
 }

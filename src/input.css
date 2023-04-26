@@ -6,4 +6,16 @@
 	.btn-pri {
 		@apply py-3 px-12 rounded-full;
 	}
+
+	.footer__mobile-background-img {
+		background-image: url("./assets/mobile/image-footer.jpg");
+	}
+
+	.footer__tablet-background-img {
+		background-image: url("./assets/tablet/image-footer.jpg");
+	}
+}
+
+.test {
+	background-image: url("./assets/desktop/image-man-texting.jpg");
 }

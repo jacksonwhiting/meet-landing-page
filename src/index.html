@@ -14,7 +14,7 @@
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="./images/favicon-32x32.png" />
+			href="./assets/favicon-32x32.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -141,7 +141,7 @@
 			</div>
 
 			<!-- Examples of built for moder use section -->
-			<section class="mx-8">
+			<section class="mx-8 mb-12">
 				<div class="grid grid-cols-2 gap-8 mb-14">
 					<img
 						class="rounded-lg"
@@ -164,16 +164,19 @@
 					<span class="text-overline text-skin-accent-pri"
 						>BUILT FOR MODERN USE</span
 					>
-					<h2 class="">Smarter meetings, all in one place</h2>
-					<p>
+					<h2 class="text-hdgM text-skin-hdg-pri font-bold">
+						Smarter meetings, all in one place
+					</h2>
+					<p class="leading-[2.2rem]">
 						Send messages, share files, show your screen, and record your
 						meetings — all in one workspace. Control who can join with
 						invite-only team access, data encryption, and data export.
 					</p>
 				</div>
 			</section>
-			<footer>
+			<footer class="relative text-center mx-8">
 				<svg
+					class="relative -bottom-8 z-10 mx-auto"
 					width="56"
 					height="141"
 					viewBox="0 0 56 141"
@@ -221,15 +224,22 @@
 						</clipPath>
 					</defs>
 				</svg>
-				<div>
-					<h2>Experience more together</h2>
-					<p>
-						Stay connected with reliable HD meetings and unlimited
-						one-on-one and group video sessions
-					</p>
-					<btn-pri>Download v1.3</btn-pri>
+				<div
+					class="bg-skin-fill-pri footer__mobile-background-img pt-24 pb-16">
+					<div class="space-y-8 mx-8">
+						<h2 class="text-white text-hdgM">Experience more together</h2>
+						<p class="text-white">
+							Stay connected with reliable HD meetings and unlimited
+							one-on-one and group video sessions
+						</p>
+						<button class="btn-pri bg-skin-fill-sec text-white">
+							Download
+							<span class="text-skin-accent-sec-hover">v1.3</span>
+						</button>
+					</div>
 				</div>
 			</footer>
+			<div class="mt-20 test"></div>
 		</main>
 
 		<script src="" async></script>

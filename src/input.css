@@ -8,14 +8,27 @@
 	}
 
 	.footer__mobile-background-img {
-		background-image: url("./assets/mobile/image-footer.jpg");
+		background-image: url("/assets/mobile/image-footer.jpg");
+		background-position: top;
 	}
 
 	.footer__tablet-background-img {
-		background-image: url("./assets/tablet/image-footer.jpg");
+		background-image: url("/assets/tablet/image-footer.jpg");
+		background-position: top;
 	}
-}
-
-.test {
-	background-image: url("./assets/desktop/image-man-texting.jpg");
+	.footer__mobile-background-img2 {
+		background-image: url("/assets/mobile/image-footer.jpg");
+		background-position: top;
+		background-color: rgb(77, 150, 169);
+		background-blend-mode: darken;
+	}
+	.footer__mobile-background-img3 {
+		background-image: linear-gradient(
+				to right,
+				rgb(77, 150, 169, 0.8),
+				rgb(77, 150, 169, 0.8)
+			),
+			url("/assets/mobile/image-footer.jpg");
+		background-position: top;
+	}
 }

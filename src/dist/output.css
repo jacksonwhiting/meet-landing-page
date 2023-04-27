@@ -525,7 +525,18 @@ video {
 }
 
 .footer__mobile-background-img {
-  background-image: url("./assets/mobile/image-footer.jpg");
+  background-image: url("/assets/mobile/image-footer.jpg");
+  background-position: top;
+}
+
+.footer__mobile-background-img3 {
+  background-image: linear-gradient(
+				to right,
+				rgb(77, 150, 169, 0.8),
+				rgb(77, 150, 169, 0.8)
+			),
+			url("/assets/mobile/image-footer.jpg");
+  background-position: top;
 }
 
 .relative {
@@ -561,10 +572,6 @@ video {
 
 .mb-14 {
   margin-bottom: 3.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .flex {
@@ -644,6 +651,10 @@ video {
   background-color: rgb(133 95 177 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -721,10 +732,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.test {
-  background-image: url("./assets/desktop/image-man-texting.jpg");
 }
 
 @media (min-width: 1024px) {

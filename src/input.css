@@ -4,25 +4,10 @@
 
 @layer components {
 	.btn-pri {
-		@apply py-3 px-12 rounded-full;
+		@apply py-3 px-12 rounded-full cursor-pointer;
 	}
 
 	.footer__mobile-background-img {
-		background-image: url("/assets/mobile/image-footer.jpg");
-		background-position: top;
-	}
-
-	.footer__tablet-background-img {
-		background-image: url("/assets/tablet/image-footer.jpg");
-		background-position: top;
-	}
-	.footer__mobile-background-img2 {
-		background-image: url("/assets/mobile/image-footer.jpg");
-		background-position: top;
-		background-color: rgb(77, 150, 169);
-		background-blend-mode: darken;
-	}
-	.footer__mobile-background-img3 {
 		background-image: linear-gradient(
 				to right,
 				rgb(77, 150, 169, 0.8),
@@ -30,5 +15,32 @@
 			),
 			url("/assets/mobile/image-footer.jpg");
 		background-position: top;
+		background-repeat: no-repeat;
+	}
+
+	.footer__tablet-background-img {
+		background-image: linear-gradient(
+				to right,
+				rgb(77, 150, 169, 0.8),
+				rgb(77, 150, 169, 0.8)
+			),
+			url("/assets/tablet/image-footer.jpg");
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+
+	.footer__desktop-background-img {
+		background-image: linear-gradient(
+				to right,
+				rgb(77, 150, 169, 0.8),
+				rgb(77, 150, 169, 0.8)
+			),
+			url("/assets/desktop/image-footer.jpg");
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+
+	.hero-grid__xl {
+		grid-template-columns: 1fr auto 1fr;
 	}
 }

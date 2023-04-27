@@ -24,7 +24,7 @@
 	</head>
 
 	<body
-		class="font-redHat text-bodyPri max-w-screen-2xl mx-auto text-skin-content-pri bg-skin-canvas-pri">
+		class="font-redHat text-bodyPri max-w-screen- xl mx-auto text-skin-content-pri bg-skin-canvas-pri">
 		<main>
 			<header class="text-center my-12">
 				<svg
@@ -46,32 +46,22 @@
 			</header>
 
 			<!-- Hero section -->
-			<section class="mb-14">
+			<section class="mb-14 xl:mb-6 xl:grid xl:hero-grid__xl xl:gap-4">
 				<div class="overflow-hidden mb-12">
-					<picture class="flex justify-center">
+					<picture class="flex justify-center xl:justify-end">
 						<source
-							class="max-w-[112%]"
+							class="max-w-[112%] xl:max-w-none object-right"
 							srcset="./assets/desktop/image-hero-left.png"
 							type="image/png"
-							media="(min-width: 1024px)" />
-						<source
-							class="max-w-[112%]"
-							srcset="./assets/desktop/image-hero-right.png"
-							type="image/png"
-							media="(min-width: 1024px)" />
+							media="(min-width: 1280px)" />
 						<img
-							class="max-w-[112%]"
+							class="max-w-[112%] xl:max-w-none"
 							src="./assets/tablet/image-hero.png"
 							alt="different faces available to meet" />
 					</picture>
 				</div>
-				<div>
-					<img
-						class="hidden lg:block max-w-[112%]"
-						src="./assets/desktop/image-hero-right.png"
-						alt="more faces available to meet" />
-				</div>
-				<div class="mx-8 text-center space-y-6">
+				<div
+					class="mx-auto px-8 max-w-[460px] text-center space-y-6 xl:max-w-[550px]">
 					<h1 class="text-hdgM text-skin-hdg-pri text font-semibold">
 						Group Chat for Everyone
 					</h1>
@@ -79,15 +69,23 @@
 						Meet makes it easy to connect with others face-to-face
 						virtually and collaborate across any device-width
 					</p>
-					<div class="space-y-4">
-						<button class="btn-pri bg-skin-fill-pri text-[#ffffff]">
+					<div class="space-y-4 space-x-4">
+						<button
+							class="btn-pri bg-skin-fill-pri text-[#ffffff] hover:bg-opacity-70">
 							Download
 							<span class="text-skin-accent-pri-hover">v1.3</span>
 						</button>
-						<button class="btn-pri bg-skin-fill-sec text-[#ffffff]">
+						<button
+							class="btn-pri bg-skin-fill-sec text-[#ffffff] hover:bg-skin-accent-sec-hover">
 							What is it?
 						</button>
 					</div>
+				</div>
+				<div class="overflow-hidden">
+					<img
+						class="hidden xl:block max-w-none"
+						src="./assets/desktop/image-hero-right.png"
+						alt="more faces available to meet" />
 				</div>
 			</section>
 
@@ -141,8 +139,9 @@
 			</div>
 
 			<!-- Examples of built for moder use section -->
-			<section class="mx-8 mb-12">
-				<div class="grid grid-cols-2 gap-8 mb-14">
+			<section class="mx-auto px-8 mb-8">
+				<div
+					class="grid grid-cols-2 gap-8 mb-12 mx-auto sm:grid-cols-4 sm:gap-6 max-w-[1100px]">
 					<img
 						class="rounded-lg"
 						src="./assets/desktop/image-woman-in-videocall.jpg"
@@ -160,7 +159,7 @@
 						src="./assets/desktop/image-man-texting.jpg"
 						alt="man texting on couch" />
 				</div>
-				<div class="space-y-8 text-center">
+				<div class="space-y-8 text-center mx-auto max-w-[550px]">
 					<span class="text-overline text-skin-accent-pri"
 						>BUILT FOR MODERN USE</span
 					>
@@ -174,7 +173,7 @@
 					</p>
 				</div>
 			</section>
-			<footer class="relative text-center mx-8">
+			<footer class="relative text-center">
 				<svg
 					class="relative -bottom-8 z-10 mx-auto"
 					width="56"
@@ -224,14 +223,21 @@
 						</clipPath>
 					</defs>
 				</svg>
-				<div class="footer__mobile-background-img3 pt-24 pb-16">
-					<div class="space-y-8 mx-8">
-						<h2 class="text-white text-hdgM">Experience more together</h2>
-						<p class="text-white">
+				<div
+					class="bg-cover xl:text-left footer__mobile-background-img sm:footer__tablet-background-img xl:footer__desktop-background-img lg:px-32 pt-24 pb-12">
+					<div
+						class="mx-auto 2xl:max-w-screen-xl space-y-8 xl:space-y-0 xl:flex xl:items-center xl:justify-between">
+						<h2
+							class="text-white text-hdgM sm:max-w-[550px] px-8 xl:px-0 mx-auto xl:mx-0 xl:max-w-[350px]">
+							Experience more together
+						</h2>
+						<p
+							class="text-white mx-auto sm:max-w-[550px] xl:mx-0 xl:px-0 xl:max-w-[350px] px-8">
 							Stay connected with reliable HD meetings and unlimited
 							one-on-one and group video sessions
 						</p>
-						<button class="btn-pri bg-skin-fill-sec text-white">
+						<button
+							class="mx-auto xl:mx-0 btn-pri self-center bg-skin-fill-sec text-white hover:bg-skin-accent-sec-hover">
 							Download
 							<span class="text-skin-accent-sec-hover">v1.3</span>
 						</button>

@@ -18,6 +18,8 @@ module.exports = {
 					"canvas-pri": "#FAFAFA",
 					"fill-pri": "#4D96A9",
 					"fill-sec": "#855FB1",
+					"accent-pri-hover": "#8FE3F9",
+					"accent-sec-hover": "#D9B8FF",
 				},
 			},
 			fontFamily: {
